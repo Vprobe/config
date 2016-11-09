@@ -1,0 +1,953 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doublecmd DCVersion="0.7.1 beta" ConfigVersion="9">
+  <Configuration Save="True" SortOrder="0">
+    <UseConfigInProgramDir>False</UseConfigInProgramDir>
+  </Configuration>
+  <Colors>
+    <FileFilters>
+      <Filter>
+        <Name>Pascal sources</Name>
+        <FileMasks>*.pas;*.pp</FileMasks>
+        <Color>32768</Color>
+        <Attributes/>
+      </Filter>
+      <Filter>
+        <Name>Pascal binaries</Name>
+        <FileMasks>*.ppu;*.o;*.dcu</FileMasks>
+        <Color>16711680</Color>
+        <Attributes/>
+      </Filter>
+      <Filter>
+        <Name>Specified Executables</Name>
+        <FileMasks>*</FileMasks>
+        <Color>55758</Color>
+        <Attributes>-rwxrwxr*x</Attributes>
+      </Filter>
+      <Filter>
+        <Name>Executables</Name>
+        <FileMasks>*</FileMasks>
+        <Color>32768</Color>
+        <Attributes>-*x*</Attributes>
+      </Filter>
+      <Filter>
+        <Name>mp3</Name>
+        <FileMasks>*mp3;*m3u</FileMasks>
+        <Color>8421376</Color>
+        <Attributes/>
+      </Filter>
+      <Filter>
+        <Name>sql</Name>
+        <FileMasks>*sql</FileMasks>
+        <Color>15780518</Color>
+        <Attributes/>
+      </Filter>
+      <Filter>
+        <Name>txt</Name>
+        <FileMasks>*txt</FileMasks>
+        <Color>10789024</Color>
+        <Attributes/>
+      </Filter>
+    </FileFilters>
+    <UseCursorBorder>False</UseCursorBorder>
+    <CursorBorderColor>-2147483635</CursorBorderColor>
+    <UseFrameCursor>False</UseFrameCursor>
+    <Foreground>15793151</Foreground>
+    <Background>-2147483641</Background>
+    <Background2>-2147483641</Background2>
+    <Cursor>-2147483621</Cursor>
+    <CursorText>0</CursorText>
+    <Mark>65535</Mark>
+    <InactiveCursor>-2147483645</InactiveCursor>
+    <InactiveMark>128</InactiveMark>
+    <UseInvertedSelection>False</UseInvertedSelection>
+    <UseInactiveSelColor>False</UseInactiveSelColor>
+    <AllowOverColor>True</AllowOverColor>
+    <InactivePanelBrightness>100</InactivePanelBrightness>
+    <FreeSpaceIndicator>
+      <UseGradient>True</UseGradient>
+      <ForeColor>0</ForeColor>
+      <BackColor>16777215</BackColor>
+    </FreeSpaceIndicator>
+  </Colors>
+  <Plugins>
+    <WlxPlugins>
+      <WlxPlugin Enabled="True">
+        <Name>wlxMplayer</Name>
+        <Path>%COMMANDER_PATH%/plugins/wlx/wlxmplayer/wlxmplayer.wlx</Path>
+        <DetectString>(EXT="MPG")|(EXT="AVI")|(EXT="MPEG")|(EXT="FLV")</DetectString>
+      </WlxPlugin>
+    </WlxPlugins>
+    <DsxPlugins/>
+    <WcxPlugins>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>zip</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>735</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>tar</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>223</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>bz2</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>91</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>tbz</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>95</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>gz</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>91</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>tgz</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>95</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>lzma</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>1</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>tlz</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>95</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>xz</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>91</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>txz</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>95</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>zipx</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>212</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>cpio</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/cpio/cpio.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>deb</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/deb/deb.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>rpm</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/rpm/rpm.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>rar</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/unrar/unrar.wcx</Path>
+        <Flags>68</Flags>
+      </WcxPlugin>
+    </WcxPlugins>
+    <WdxPlugins>
+      <WdxPlugin>
+        <Name>deb_wdx</Name>
+        <Path>%COMMANDER_PATH%/plugins/wdx/deb_wdx/deb_wdx.wdx</Path>
+        <DetectString>EXT="DEB"</DetectString>
+      </WdxPlugin>
+      <WdxPlugin>
+        <Name>rpm_wdx</Name>
+        <Path>%COMMANDER_PATH%/plugins/wdx/rpm_wdx/rpm_wdx.wdx</Path>
+        <DetectString>EXT="RPM"</DetectString>
+      </WdxPlugin>
+    </WdxPlugins>
+    <WfxPlugins>
+      <WfxPlugin Enabled="True">
+        <Name>FTP</Name>
+        <Path>%commander_path%/plugins/wfx/ftp/ftp.wfx</Path>
+      </WfxPlugin>
+      <WfxPlugin Enabled="True">
+        <Name>Windows Network</Name>
+        <Path>%commander_path%/plugins/wfx/samba/samba.wfx</Path>
+      </WfxPlugin>
+    </WfxPlugins>
+  </Plugins>
+  <Toolbars>
+    <MainToolbar>
+      <Row>
+        <Command>
+          <ID>{79BA5DD6-DD53-4944-8C1A-4D88FF8FA807}</ID>
+          <Icon>cm_refresh</Icon>
+          <Command>cm_Refresh</Command>
+        </Command>
+        <Command>
+          <ID>{B2381033-FB80-4B0C-8031-288917477F8C}</ID>
+          <Icon>cm_runterm</Icon>
+          <Command>cm_RunTerm</Command>
+        </Command>
+        <Command>
+          <ID>{B55F2815-055E-40F6-9899-AEF78138F05A}</ID>
+          <Icon>cm_options</Icon>
+          <Command>cm_Options</Command>
+        </Command>
+        <Separator/>
+        <Command>
+          <ID>{43DFD514-398B-4E41-9215-232C72A9E8EA}</ID>
+          <Icon>cm_briefview</Icon>
+          <Command>cm_BriefView</Command>
+        </Command>
+        <Command>
+          <ID>{153DC6B7-F99C-4DB9-80DB-C39E39F4F1DB}</ID>
+          <Icon>cm_columnsview</Icon>
+          <Command>cm_ColumnsView</Command>
+        </Command>
+        <Command>
+          <ID>{44DC44B7-DBF8-4503-80CD-89C85846BDB4}</ID>
+          <Icon>cm_thumbnailsview</Icon>
+          <Command>cm_ThumbnailsView</Command>
+        </Command>
+        <Separator/>
+        <Command>
+          <ID>{BA7F003C-7E29-446D-8DAD-085607454A3C}</ID>
+          <Icon>cm_flatview</Icon>
+          <Command>cm_FlatView</Command>
+        </Command>
+        <Separator/>
+        <Command>
+          <ID>{1280C9B4-9F33-4C42-BE22-D40BECFA53DA}</ID>
+          <Icon>cm_viewhistoryprev</Icon>
+          <Command>cm_ViewHistoryPrev</Command>
+        </Command>
+        <Command>
+          <ID>{4C0DB3A8-6FE0-4234-A1E5-CF61859308E7}</ID>
+          <Icon>cm_viewhistorynext</Icon>
+          <Command>cm_ViewHistoryNext</Command>
+        </Command>
+        <Separator/>
+        <Command>
+          <ID>{4D5CB2AD-3F9D-463C-824B-8ECB37B91092}</ID>
+          <Icon>cm_markplus</Icon>
+          <Command>cm_MarkPlus</Command>
+        </Command>
+        <Command>
+          <ID>{F2902378-781C-49C3-9668-4CDEB3A13C11}</ID>
+          <Icon>cm_markminus</Icon>
+          <Command>cm_MarkMinus</Command>
+        </Command>
+        <Command>
+          <ID>{32B411DA-4C50-4181-83A0-0FC050CF8F3A}</ID>
+          <Icon>cm_markinvert</Icon>
+          <Command>cm_MarkInvert</Command>
+        </Command>
+        <Separator/>
+        <Command>
+          <ID>{72FD5CD2-F1AD-4980-80DE-995870C1C8B6}</ID>
+          <Icon>cm_packfiles</Icon>
+          <Command>cm_PackFiles</Command>
+        </Command>
+        <Command>
+          <ID>{1ECBEF80-EAEF-4AFB-9F5F-8887D0664D9C}</ID>
+          <Icon>cm_extractfiles</Icon>
+          <Command>cm_ExtractFiles</Command>
+        </Command>
+        <Separator/>
+        <Command>
+          <ID>{144C0CDB-4477-4B7E-973D-675E64A9E97A}</ID>
+          <Icon>cm_search</Icon>
+          <Command>cm_Search</Command>
+        </Command>
+        <Command>
+          <ID>{C552E281-1E67-4AF2-9F09-AE9D17322428}</ID>
+          <Icon>cm_multirename</Icon>
+          <Command>cm_MultiRename</Command>
+        </Command>
+        <Command>
+          <ID>{9ACE7B71-63C8-491D-8EF2-67B7B8A93EB5}</ID>
+          <Icon>cm_syncdirs</Icon>
+          <Command>cm_SyncDirs</Command>
+        </Command>
+        <Command>
+          <ID>{2E651123-F884-40BD-8201-EA862ED9E4A2}</ID>
+          <Icon>cm_copyfullnamestoclip</Icon>
+          <Command>cm_CopyFullNamesToClip</Command>
+        </Command>
+      </Row>
+    </MainToolbar>
+  </Toolbars>
+  <Tabs>
+    <OpenedTabs>
+      <Left>
+        <ActiveTab>0</ActiveTab>
+        <Tab>
+          <FileView Type="columns">
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="..">/home/vprobe/Download/</Path>
+                  <Path Filename=".config">/home/vprobe/</Path>
+                  <Path Filename="..">/home/vprobe/.config/</Path>
+                  <Path Filename="www">/home/vprobe/</Path>
+                  <Path Filename="..">/home/vprobe/www/</Path>
+                  <Path Filename="www">/home/vprobe/</Path>
+                  <Path Filename="..">/home/vprobe/www/</Path>
+                  <Path Filename="work">/home/vprobe/</Path>
+                  <Path Filename="..">/home/vprobe/work/</Path>
+                  <Path Filename="Рабочий стол">/home/vprobe/</Path>
+                  <Path Filename="..">/home/vprobe/Рабочий стол/</Path>
+                  <Path Filename="Pictures">/home/vprobe/</Path>
+                  <Path Filename="..">/home/vprobe/Pictures/</Path>
+                  <Path Filename="Download">/home/vprobe/</Path>
+                  <Path Filename="Telegram Desktop">/home/vprobe/Download/</Path>
+                  <Path Filename="Desktop">/home/vprobe/</Path>
+                  <Path Filename="conf">/home/vprobe/Desktop/</Path>
+                  <Path Filename="firefox">/home/vprobe/Desktop/conf/</Path>
+                  <Path Filename="..">/home/vprobe/Desktop/conf/firefox/</Path>
+                  <Path Filename="linux">/home/vprobe/Desktop/conf/</Path>
+                  <Path Filename="..">/home/vprobe/Desktop/conf/linux/</Path>
+                  <Path Filename="mc">/home/vprobe/Desktop/conf/</Path>
+                  <Path Filename="..">/home/vprobe/Desktop/conf/mc/</Path>
+                  <Path Filename="vim">/home/vprobe/Desktop/conf/</Path>
+                  <Path Filename="vimrc_with_vundle">/home/vprobe/Desktop/conf/vim/</Path>
+                  <Path Filename="..">/home/vprobe/Desktop/conf/vim/vimrc_with_vundle/</Path>
+                  <Path Filename="..">/home/vprobe/Desktop/conf/vim/</Path>
+                  <Path Filename="mc">/home/vprobe/Desktop/conf/</Path>
+                  <Path Filename="panels.ini">/home/vprobe/Desktop/conf/mc/</Path>
+                  <Path Filename="firefox">/home/vprobe/Desktop/conf/</Path>
+                  <Path Filename="..">/home/vprobe/Desktop/conf/firefox/</Path>
+                  <Path Filename="linux">/home/vprobe/Desktop/conf/</Path>
+                  <Path Filename="pics">/home/vprobe/Desktop/conf/linux/</Path>
+                  <Path Filename="..">/home/vprobe/Desktop/conf/linux/pics/</Path>
+                  <Path Filename="fstab">/home/vprobe/Desktop/conf/linux/</Path>
+                  <Path Filename="firefox">/home/vprobe/Desktop/conf/</Path>
+                  <Path Filename="addons.txt">/home/vprobe/Desktop/conf/firefox/</Path>
+                  <Path Filename="..">/run/user/1000/gvfs/</Path>
+                  <Path Filename="gvfs">/run/user/1000/</Path>
+                  <Path Filename="projects_backup">/media/vprobe/samsung_T1/</Path>
+                  <Path Filename="lifeTB">/media/vprobe/samsung_T1/projects_backup/</Path>
+                  <Path Filename="..">/media/vprobe/samsung_T1/projects_backup/lifeTB/</Path>
+                  <Path Filename="lifeTB">/media/vprobe/samsung_T1/projects_backup/</Path>
+                  <Path Filename="..">/media/vprobe/samsung_T1/projects_backup/lifeTB/</Path>
+                  <Path Filename="..">/media/vprobe/samsung_T1/projects_backup/</Path>
+                  <Path Filename="projects_backup">/media/vprobe/samsung_T1/</Path>
+                  <Path Filename="..">/run/user/1000/gvfs/</Path>
+                  <Path Filename="gvfs">/run/user/1000/</Path>
+                  <Path Filename="1000">/run/user/</Path>
+                  <Path Filename="..">/media/vprobe/samsung_T1/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+      </Left>
+      <Right>
+        <ActiveTab>0</ActiveTab>
+        <Tab>
+          <FileView Type="columns">
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="Dropbox">/home/vprobe/</Path>
+                  <Path Filename="vprobe">/home/</Path>
+                  <Path Filename="Download">/home/vprobe/</Path>
+                  <Path Filename="Minimal-Like-Dislike-Button-Plugin-with-jQuery-like-dislike">/home/vprobe/Download/</Path>
+                  <Path Filename="..">/home/vprobe/Download/Minimal-Like-Dislike-Button-Plugin-with-jQuery-like-dislike/</Path>
+                  <Path Filename="..">/home/vprobe/Download/</Path>
+                  <Path Filename=".gitconfig">/home/vprobe/</Path>
+                  <Path Filename="vprobe">/home/</Path>
+                  <Path Filename="www">/home/vprobe/</Path>
+                  <Path Filename="lifeTB">/home/vprobe/www/</Path>
+                  <Path Filename="frontend">/home/vprobe/www/lifeTB/</Path>
+                  <Path Filename="assets">/home/vprobe/www/lifeTB/frontend/</Path>
+                  <Path Filename="..">/home/vprobe/www/lifeTB/frontend/assets/</Path>
+                  <Path Filename="components">/home/vprobe/www/lifeTB/frontend/</Path>
+                  <Path Filename="..">/home/vprobe/www/lifeTB/frontend/components/</Path>
+                  <Path Filename="config">/home/vprobe/www/lifeTB/frontend/</Path>
+                  <Path Filename="..">/home/vprobe/www/lifeTB/frontend/config/</Path>
+                  <Path Filename="controllers">/home/vprobe/www/lifeTB/frontend/</Path>
+                  <Path Filename="..">/home/vprobe/www/lifeTB/frontend/controllers/</Path>
+                  <Path Filename="controllers">/home/vprobe/www/lifeTB/frontend/</Path>
+                  <Path Filename=".git">/home/vprobe/www/lifeTB/</Path>
+                  <Path Filename="lifeTB">/home/vprobe/www/</Path>
+                  <Path Filename="Music">/home/vprobe/</Path>
+                  <Path Filename="Empire Of The Sun - Two Vines (2016)">/home/vprobe/Music/</Path>
+                  <Path Filename="08. Digital Life.mp3">/home/vprobe/Music/Empire Of The Sun - Two Vines (2016)/</Path>
+                  <Path Filename="Empire Of The Sun - Two Vines (2016)">/home/vprobe/Music/</Path>
+                  <Path Filename="07. Ride.mp3">/home/vprobe/Music/Empire Of The Sun - Two Vines (2016)/</Path>
+                  <Path Filename="Empire Of The Sun - Two Vines (2016)">/home/vprobe/Music/</Path>
+                  <Path Filename="08. Digital Life.mp3">/home/vprobe/Music/Empire Of The Sun - Two Vines (2016)/</Path>
+                  <Path Filename="Empire Of The Sun - Two Vines (2016)">/home/vprobe/Music/</Path>
+                  <Path Filename="..">/home/vprobe/Music/Empire Of The Sun - Two Vines (2016)/</Path>
+                  <Path Filename="Empire Of The Sun - Two Vines (2016)">/home/vprobe/Music/</Path>
+                  <Path Filename="Pictures">/home/vprobe/</Path>
+                  <Path Filename="solar_system-wallpaper-1680x1050.jpg">/home/vprobe/Pictures/</Path>
+                  <Path Filename="www">/home/vprobe/</Path>
+                  <Path Filename="lifeTB">/home/vprobe/www/</Path>
+                  <Path Filename=".idea">/home/vprobe/www/lifeTB/</Path>
+                  <Path Filename="lifeTB">/home/vprobe/www/</Path>
+                  <Path Filename="tests">/home/vprobe/www/lifeTB/</Path>
+                  <Path Filename="CItestProj">/home/vprobe/www/</Path>
+                  <Path Filename="tests">/home/vprobe/www/CItestProj/</Path>
+                  <Path Filename="lifeTB">/home/vprobe/www/</Path>
+                  <Path Filename="frontend">/home/vprobe/www/lifeTB/</Path>
+                  <Path Filename="lifeTB">/home/vprobe/www/</Path>
+                  <Path Filename="Music">/home/vprobe/</Path>
+                  <Path Filename="Empire Of The Sun - Two Vines (2016)">/home/vprobe/Music/</Path>
+                  <Path Filename="..">/home/vprobe/Music/Empire Of The Sun - Two Vines (2016)/</Path>
+                  <Path Filename="Empire Of The Sun - Two Vines (2016)">/home/vprobe/Music/</Path>
+                  <Path Filename="Pictures">/home/vprobe/</Path>
+                  <Path Filename="VeryBig-Horizontal.jpg">/home/vprobe/Pictures/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="photo_170x95">/home/vprobe/www/lifeTB/backend/web/uploads/miniatures/</Path>
+                  <Path Filename="..">/home/vprobe/www/lifeTB/backend/web/uploads/miniatures/photo_170x95/</Path>
+                  <Path Filename="photo_810x542">/home/vprobe/www/lifeTB/backend/web/uploads/miniatures/</Path>
+                  <Path Filename="..">/home/vprobe/www/lifeTB/backend/web/uploads/miniatures/photo_810x542/</Path>
+                  <Path Filename="photo_170x95">/home/vprobe/www/lifeTB/backend/web/uploads/miniatures/</Path>
+                  <Path Filename="..">/home/vprobe/www/lifeTB/backend/web/uploads/miniatures/photo_170x95/</Path>
+                  <Path Filename="photo_810x542">/home/vprobe/www/lifeTB/backend/web/uploads/miniatures/</Path>
+                  <Path Filename="..">/home/vprobe/www/lifeTB/backend/web/uploads/miniatures/photo_810x542/</Path>
+                  <Path Filename="photo_170x95">/home/vprobe/www/lifeTB/backend/web/uploads/miniatures/</Path>
+                  <Path Filename="imgs">/home/vprobe/www/lifeTB/backend/web/uploads/</Path>
+                  <Path Filename="photo_full">/home/vprobe/www/lifeTB/backend/web/uploads/imgs/</Path>
+                  <Path Filename="006196740664.jpg">/home/vprobe/www/lifeTB/backend/web/uploads/imgs/photo_full/</Path>
+                  <Path Filename="photo_full">/home/vprobe/www/lifeTB/backend/web/uploads/imgs/</Path>
+                  <Path Filename="miniatures">/home/vprobe/www/lifeTB/backend/web/uploads/</Path>
+                  <Path Filename="photo_170x95">/home/vprobe/www/lifeTB/backend/web/uploads/miniatures/</Path>
+                  <Path Filename="imgs">/home/vprobe/www/lifeTB/backend/web/uploads/</Path>
+                  <Path Filename=".gitignore">/home/vprobe/www/lifeTB/backend/web/uploads/imgs/</Path>
+                  <Path Filename="miniatures">/home/vprobe/www/lifeTB/backend/web/uploads/</Path>
+                  <Path Filename="photo_170x95">/home/vprobe/www/lifeTB/backend/web/uploads/miniatures/</Path>
+                  <Path Filename="miniatures">/home/vprobe/www/lifeTB/backend/web/uploads/</Path>
+                  <Path Filename="uploads">/home/vprobe/www/lifeTB/backend/web/</Path>
+                  <Path Filename="web">/home/vprobe/www/lifeTB/backend/</Path>
+                  <Path Filename="backend">/home/vprobe/www/lifeTB/</Path>
+                  <Path Filename="lifeTB">/home/vprobe/www/</Path>
+                  <Path Filename="Download">/home/vprobe/</Path>
+                  <Path Filename="Minimal-Like-Dislike-Button-Plugin-with-jQuery-like-dislike">/home/vprobe/Download/</Path>
+                  <Path Filename="Desktop">/home/vprobe/</Path>
+                  <Path Filename="conf">/home/vprobe/Desktop/</Path>
+                  <Path Filename="firefox">/home/vprobe/Desktop/conf/</Path>
+                  <Path Filename="..">/home/vprobe/Desktop/conf/firefox/</Path>
+                  <Path Filename="linux">/home/vprobe/Desktop/conf/</Path>
+                  <Path Filename="mocp">/home/vprobe/Desktop/conf/linux/</Path>
+                  <Path Filename="mc">/home/vprobe/Desktop/conf/</Path>
+                  <Path Filename="..">/home/vprobe/Desktop/conf/mc/</Path>
+                  <Path Filename="txt">/home/vprobe/Desktop/conf/</Path>
+                  <Path Filename="..">/home/vprobe/Desktop/conf/txt/</Path>
+                  <Path Filename="vim">/home/vprobe/Desktop/conf/</Path>
+                  <Path Filename="..">/home/vprobe/Desktop/conf/vim/</Path>
+                  <Path Filename="vim">/home/vprobe/Desktop/conf/</Path>
+                  <Path Filename="conf">/home/vprobe/Desktop/</Path>
+                  <Path Filename="config">/home/vprobe/</Path>
+                  <Path Filename="vim">/home/vprobe/config/</Path>
+                  <Path Filename="..">/home/vprobe/config/vim/</Path>
+                  <Path Filename="vim">/home/vprobe/config/</Path>
+                  <Path Filename="..">/home/vprobe/config/vim/</Path>
+                  <Path Filename="mc">/home/vprobe/config/</Path>
+                  <Path Filename="..">/home/vprobe/config/mc/</Path>
+                  <Path Filename=".git">/home/vprobe/config/</Path>
+                  <Path Filename="..">/run/user/1000/gvfs/</Path>
+                  <Path Filename="keyring">/run/user/1000/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+      </Right>
+    </OpenedTabs>
+    <Options>49937</Options>
+    <CharacterLimit>32</CharacterLimit>
+    <Position>0</Position>
+    <ActionOnDoubleClick>2</ActionOnDoubleClick>
+  </Tabs>
+  <MainWindow>
+    <Position>
+      <Left>398</Left>
+      <Top>245</Top>
+      <Width>1235</Width>
+      <Height>733</Height>
+      <Maximized>False</Maximized>
+      <Splitter>50</Splitter>
+    </Position>
+  </MainWindow>
+  <Language>
+    <POFileName>doublecmd.ru.po</POFileName>
+  </Language>
+  <Behaviours>
+    <GoToRoot>False</GoToRoot>
+    <RunInTerminalStayOpenCmd>x-terminal-emulator</RunInTerminalStayOpenCmd>
+    <RunInTerminalStayOpenParams>-e sh -c '{command}; echo -n Press ENTER to exit... ; read a'</RunInTerminalStayOpenParams>
+    <RunInTerminalCloseCmd>x-terminal-emulator</RunInTerminalCloseCmd>
+    <RunInTerminalCloseParams>-e sh -c {command}</RunInTerminalCloseParams>
+    <JustRunTerminal>x-terminal-emulator</JustRunTerminal>
+    <JustRunTermParams/>
+    <OnlyOneAppInstance>True</OnlyOneAppInstance>
+    <LynxLike>True</LynxLike>
+    <FileSizeFormat>0</FileSizeFormat>
+    <MinimizeToTray>False</MinimizeToTray>
+    <AlwaysShowTrayIcon>False</AlwaysShowTrayIcon>
+    <Mouse>
+      <Selection Enabled="True">
+        <Button>0</Button>
+      </Selection>
+      <ScrollMode>1</ScrollMode>
+      <WheelScrollLines>3</WheelScrollLines>
+    </Mouse>
+    <AutoFillColumns>False</AutoFillColumns>
+    <AutoSizeColumn>1</AutoSizeColumn>
+    <CustomColumnsChangeAllColumns>False</CustomColumnsChangeAllColumns>
+    <BriefViewFileExtAligned>False</BriefViewFileExtAligned>
+    <DateTimeFormat>dd.mm.yyyy hh:nn:ss</DateTimeFormat>
+    <CutTextToColumnWidth>True</CutTextToColumnWidth>
+    <ShowSystemFiles>True</ShowSystemFiles>
+    <ListFilesInThread>True</ListFilesInThread>
+    <LoadIconsSeparately>True</LoadIconsSeparately>
+    <DelayLoadingTabs>True</DelayLoadingTabs>
+    <HighlightUpdatedFiles>True</HighlightUpdatedFiles>
+    <DriveBlackList>gvfsd-fuse</DriveBlackList>
+    <DriveBlackListUnmounted>False</DriveBlackListUnmounted>
+  </Behaviours>
+  <Tools>
+    <Viewer Enabled="False">
+      <Path/>
+      <Parameters/>
+      <RunInTerminal>False</RunInTerminal>
+      <KeepTerminalOpen>False</KeepTerminalOpen>
+    </Viewer>
+    <Editor Enabled="False">
+      <Path/>
+      <Parameters/>
+      <RunInTerminal>False</RunInTerminal>
+      <KeepTerminalOpen>False</KeepTerminalOpen>
+    </Editor>
+    <Differ Enabled="False">
+      <Path/>
+      <Parameters/>
+      <RunInTerminal>False</RunInTerminal>
+      <KeepTerminalOpen>False</KeepTerminalOpen>
+      <FramePosAfterComp>0</FramePosAfterComp>
+    </Differ>
+  </Tools>
+  <Fonts>
+    <Main>
+      <Name>default</Name>
+      <Size>10</Size>
+      <Style>1</Style>
+      <Quality>0</Quality>
+    </Main>
+    <Editor>
+      <Name>Monospace</Name>
+      <Size>14</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </Editor>
+    <Viewer>
+      <Name>Monospace</Name>
+      <Size>14</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </Viewer>
+    <Log>
+      <Name>Monospace</Name>
+      <Size>12</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </Log>
+    <ViewerBook>
+      <Name>default</Name>
+      <Size>16</Size>
+      <Style>1</Style>
+      <Quality>0</Quality>
+    </ViewerBook>
+    <Console>
+      <Name>Monospace</Name>
+      <Size>12</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </Console>
+  </Fonts>
+  <ToolTips>
+    <ShowToolTipMode>True</ShowToolTipMode>
+    <CustomFields/>
+  </ToolTips>
+  <Layout>
+    <MainMenu>True</MainMenu>
+    <ButtonBar Enabled="True">
+      <FlatIcons>True</FlatIcons>
+      <ButtonHeight>24</ButtonHeight>
+      <IconSize>16</IconSize>
+      <ReportErrorWithCommands>False</ReportErrorWithCommands>
+    </ButtonBar>
+    <DriveBar1>True</DriveBar1>
+    <DriveBar2>True</DriveBar2>
+    <DriveBarFlat>False</DriveBarFlat>
+    <DrivesListButton Enabled="True">
+      <ShowLabel>True</ShowLabel>
+      <ShowFileSystem>True</ShowFileSystem>
+      <ShowFreeSpace>True</ShowFreeSpace>
+    </DrivesListButton>
+    <SeparateTree>False</SeparateTree>
+    <DirectoryTabs>True</DirectoryTabs>
+    <CurrentDirectory>True</CurrentDirectory>
+    <TabHeader>True</TabHeader>
+    <StatusBar>True</StatusBar>
+    <CmdLine>False</CmdLine>
+    <LogWindow>False</LogWindow>
+    <TermWindow>False</TermWindow>
+    <KeyButtons>False</KeyButtons>
+    <InterfaceFlat>True</InterfaceFlat>
+    <DriveFreeSpace>True</DriveFreeSpace>
+    <DriveIndicator>False</DriveIndicator>
+    <ProgressInMenuBar>False</ProgressInMenuBar>
+    <PanelOfOperationsInBackground>True</PanelOfOperationsInBackground>
+    <HorizontalFilePanels>False</HorizontalFilePanels>
+    <ShortFormatDriveInfo>False</ShortFormatDriveInfo>
+  </Layout>
+  <FilesViews>
+    <Sorting>
+      <CaseSensitivity>0</CaseSensitivity>
+      <NaturalSorting>False</NaturalSorting>
+      <SortFolderMode>0</SortFolderMode>
+      <NewFilesPosition>2</NewFilesPosition>
+      <UpdatedFilesPosition>2</UpdatedFilesPosition>
+    </Sorting>
+    <ColumnsView>
+      <AutoSaveWidth>True</AutoSaveWidth>
+      <TitleStyle>1</TitleStyle>
+    </ColumnsView>
+    <BriefView>
+      <FileExtAligned>False</FileExtAligned>
+      <Columns>
+        <FixedWidth>100</FixedWidth>
+        <FixedCount>2</FixedCount>
+        <AutoSize>2</AutoSize>
+      </Columns>
+    </BriefView>
+  </FilesViews>
+  <Keyboard>
+    <Typing>
+      <Actions>
+        <NoModifier>2</NoModifier>
+        <Alt>0</Alt>
+        <CtrlAlt>3</CtrlAlt>
+      </Actions>
+    </Typing>
+  </Keyboard>
+  <FileOperations>
+    <BufferSize>524288</BufferSize>
+    <HashBufferSize>8388608</HashBufferSize>
+    <UseMmapInSearch>False</UseMmapInSearch>
+    <PartialNameSearch>True</PartialNameSearch>
+    <WipePassNumber>1</WipePassNumber>
+    <DropReadOnlyFlag>False</DropReadOnlyFlag>
+    <ProcessComments>False</ProcessComments>
+    <RenameSelOnlyName>False</RenameSelOnlyName>
+    <ShowCopyTabSelectPanel>False</ShowCopyTabSelectPanel>
+    <UseTrash>True</UseTrash>
+    <SkipFileOpError>False</SkipFileOpError>
+    <TypeOfDuplicatedRename>0</TypeOfDuplicatedRename>
+    <ShowDialogOnDragDrop>False</ShowDialogOnDragDrop>
+    <DragAndDropTextRichtextDesireLevel>0</DragAndDropTextRichtextDesireLevel>
+    <DragAndDropTextHtmlDesireLevel>1</DragAndDropTextHtmlDesireLevel>
+    <DragAndDropTextUnicodeDesireLevel>2</DragAndDropTextUnicodeDesireLevel>
+    <DragAndDropTextSimpletextDesireLevel>3</DragAndDropTextSimpletextDesireLevel>
+    <DragAndDropAskFormatEachTime>False</DragAndDropAskFormatEachTime>
+    <DragAndDropTextAutoFilename>False</DragAndDropTextAutoFilename>
+    <DragAndDropSaveUnicodeTextInUFT8>True</DragAndDropSaveUnicodeTextInUFT8>
+    <OverwriteFolder>False</OverwriteFolder>
+    <NtfsHourTimeDelay>False</NtfsHourTimeDelay>
+    <SearchDefaultTemplate/>
+    <ProgressKind>0</ProgressKind>
+    <Confirmations>15</Confirmations>
+    <Options>
+      <Symlink>0</Symlink>
+      <CorrectLinks>False</CorrectLinks>
+      <FileExists>0</FileExists>
+      <DirectoryExists>0</DirectoryExists>
+      <SetPropertyError>0</SetPropertyError>
+      <ReserveSpace>False</ReserveSpace>
+      <CheckFreeSpace>True</CheckFreeSpace>
+      <CopyAttributes>True</CopyAttributes>
+      <CopyTime>True</CopyTime>
+      <CopyOwnership>False</CopyOwnership>
+      <CopyPermissions>False</CopyPermissions>
+    </Options>
+  </FileOperations>
+  <Log Enabled="False" LogFileWithDateInName="False">
+    <FileName>%DC_CONFIG_PATH%/doublecmd.log</FileName>
+    <Options>1023</Options>
+  </Log>
+  <History>
+    <SearchReplaceHistory Save="True"/>
+    <DirHistory Save="True"/>
+    <CmdLineHistory Save="True"/>
+    <FileMaskHistory Save="True"/>
+  </History>
+  <QuickSearch>
+    <MatchBeginning>True</MatchBeginning>
+    <MatchEnding>True</MatchEnding>
+    <Case>1</Case>
+    <Items>2</Items>
+  </QuickSearch>
+  <QuickFilter>
+    <AutoHide>True</AutoHide>
+    <SaveSessionModifications>False</SaveSessionModifications>
+  </QuickFilter>
+  <Miscellaneous>
+    <GridVertLine>False</GridVertLine>
+    <GridHorzLine>False</GridHorzLine>
+    <ShowWarningMessages>True</ShowWarningMessages>
+    <SpaceMovesDown>False</SpaceMovesDown>
+    <DirBrackets>False</DirBrackets>
+    <InplaceRename>False</InplaceRename>
+    <HotDirAddTargetOrNot>False</HotDirAddTargetOrNot>
+    <HotDirFullExpandOrNot>False</HotDirFullExpandOrNot>
+    <ShowPathInPopup>False</ShowPathInPopup>
+    <ShowOnlyValidEnv>True</ShowOnlyValidEnv>
+    <WhereToAddNewHotDir>2</WhereToAddNewHotDir>
+  </Miscellaneous>
+  <Thumbnails Save="True">
+    <Width>128</Width>
+    <Height>128</Height>
+  </Thumbnails>
+  <AutoRefresh>
+    <Options>3</Options>
+    <ExcludeDirs/>
+    <Mode>1</Mode>
+  </AutoRefresh>
+  <Icons>
+    <ShowMode>3</ShowMode>
+    <ShowOverlays>False</ShowOverlays>
+    <Size>16</Size>
+    <Exclude>False</Exclude>
+    <ExcludeDirs/>
+    <CustomDriveIcons>False</CustomDriveIcons>
+    <ShowInMenus Enabled="False">
+      <Size>16</Size>
+    </ShowInMenus>
+  </Icons>
+  <IgnoreList Enabled="False">
+    <IgnoreListFile>%DC_CONFIG_PATH%/ignorelist.txt</IgnoreListFile>
+  </IgnoreList>
+  <DirectoryHotList>
+    <HotDir Name="vprobe" Path="/home/vprobe/"/>
+    <HotDir Name="apache2" Path="/etc/apache2/"/>
+    <HotDir Name="lifeTB" Path="/home/vprobe/www/lifeTB/"/>
+    <HotDir Name="txt" Path="/home/vprobe/Desktop/conf/txt/"/>
+  </DirectoryHotList>
+  <Viewer>
+    <PreviewVisible>False</PreviewVisible>
+    <ImageStretch>False</ImageStretch>
+    <ImageStretchLargeOnly>False</ImageStretchLargeOnly>
+    <ImageCenter>True</ImageCenter>
+    <CopyMovePath1/>
+    <CopyMovePath2/>
+    <CopyMovePath3/>
+    <CopyMovePath4/>
+    <CopyMovePath5/>
+    <PaintMode>Pen</PaintMode>
+    <PaintWidth>5</PaintWidth>
+    <NumberOfColumns>1</NumberOfColumns>
+    <ViewerMode>0</ViewerMode>
+    <PaintColor>255</PaintColor>
+    <BackgroundColor>0</BackgroundColor>
+    <FontColor>16777215</FontColor>
+    <TextPosition>0</TextPosition>
+  </Viewer>
+  <Editor>
+    <SynEditOptions>856075</SynEditOptions>
+  </Editor>
+  <SyncDirs>
+    <Subdirs>False</Subdirs>
+    <ByContent>False</ByContent>
+    <IgnoreDate>False</IgnoreDate>
+    <FilterCopyRight>True</FilterCopyRight>
+    <FilterEqual>True</FilterEqual>
+    <FilterNotEqual>True</FilterNotEqual>
+    <FilterCopyLeft>True</FilterCopyLeft>
+    <FilterDuplicates>True</FilterDuplicates>
+    <FilterSingles>True</FilterSingles>
+    <FileMask>*</FileMask>
+  </SyncDirs>
+  <InternalAssociations>
+    <OfferToAddNewFileType>False</OfferToAddNewFileType>
+    <LastCustomAction>Custom action</LastCustomAction>
+    <ExpandedContextMenu>False</ExpandedContextMenu>
+    <ExecuteViaShell>False</ExecuteViaShell>
+    <OpenSystemWithTerminalClose>False</OpenSystemWithTerminalClose>
+    <OpenSystemWithTerminalStayOpen>False</OpenSystemWithTerminalStayOpen>
+    <IncludeFileAssociation>False</IncludeFileAssociation>
+  </InternalAssociations>
+  <FavoriteTabsOptions>
+    <FavoriteTabsUseRestoreExtraOptions>False</FavoriteTabsUseRestoreExtraOptions>
+    <WhereToAdd>1</WhereToAdd>
+    <Expand>True</Expand>
+    <GotoConfigAftSav>False</GotoConfigAftSav>
+    <GotoConfigAftReSav>False</GotoConfigAftReSav>
+    <DfltLeftGoTo>0</DfltLeftGoTo>
+    <DfltRightGoTo>1</DfltRightGoTo>
+    <DfltKeep>5</DfltKeep>
+    <DfltSaveDirHistory>False</DfltSaveDirHistory>
+    <FavTabsLastUniqueID>{74BE7208-B3C0-4B72-BBFE-B09356631933}</FavTabsLastUniqueID>
+  </FavoriteTabsOptions>
+  <Lua>
+    <PathToLibrary>liblua5.1.so.0</PathToLibrary>
+  </Lua>
+  <NameShortcutFile>shortcuts.scf</NameShortcutFile>
+  <LastUsedPacker>zip</LastUsedPacker>
+  <UseShellForFileOperations>False</UseShellForFileOperations>
+  <LastDoAnyCommand>cm_Refresh</LastDoAnyCommand>
+  <SearchTemplates/>
+  <ColumnsSets DefaultTitleHash="1848642058">
+    <ColumnsSet UseFrameCursor="False">
+      <Name>Default</Name>
+      <CustomView>False</CustomView>
+      <CursorBorder Enabled="False">
+        <Color>0</Color>
+      </CursorBorder>
+      <Columns>
+        <Column>
+          <Title>Имя</Title>
+          <FuncString>[DC().GETFILENAMENOEXT{}]</FuncString>
+          <Width>250</Width>
+          <Align>0</Align>
+          <Font>
+            <Name>default</Name>
+            <Size>10</Size>
+            <Style>1</Style>
+            <Quality>0</Quality>
+          </Font>
+          <TextColor>-2147483640</TextColor>
+          <Background>-2147483643</Background>
+          <Background2>-2147483643</Background2>
+          <MarkColor>255</MarkColor>
+          <CursorColor>-2147483635</CursorColor>
+          <CursorText>-2147483634</CursorText>
+          <InactiveCursorColor>-2147483645</InactiveCursorColor>
+          <InactiveMarkColor>128</InactiveMarkColor>
+          <UseInvertedSelection>False</UseInvertedSelection>
+          <UseInactiveSelColor>False</UseInactiveSelColor>
+          <Overcolor>True</Overcolor>
+        </Column>
+        <Column>
+          <Title>Тип</Title>
+          <FuncString>[DC().GETFILEEXT{}]</FuncString>
+          <Width>50</Width>
+          <Align>0</Align>
+          <Font>
+            <Name>default</Name>
+            <Size>10</Size>
+            <Style>1</Style>
+            <Quality>0</Quality>
+          </Font>
+          <TextColor>-2147483640</TextColor>
+          <Background>-2147483643</Background>
+          <Background2>-2147483643</Background2>
+          <MarkColor>255</MarkColor>
+          <CursorColor>-2147483635</CursorColor>
+          <CursorText>-2147483634</CursorText>
+          <InactiveCursorColor>-2147483645</InactiveCursorColor>
+          <InactiveMarkColor>128</InactiveMarkColor>
+          <UseInvertedSelection>False</UseInvertedSelection>
+          <UseInactiveSelColor>False</UseInactiveSelColor>
+          <Overcolor>True</Overcolor>
+        </Column>
+        <Column>
+          <Title>Размер</Title>
+          <FuncString>[DC().GETFILESIZE{}]</FuncString>
+          <Width>78</Width>
+          <Align>1</Align>
+          <Font>
+            <Name>default</Name>
+            <Size>10</Size>
+            <Style>1</Style>
+            <Quality>0</Quality>
+          </Font>
+          <TextColor>-2147483640</TextColor>
+          <Background>-2147483643</Background>
+          <Background2>-2147483643</Background2>
+          <MarkColor>255</MarkColor>
+          <CursorColor>-2147483635</CursorColor>
+          <CursorText>-2147483634</CursorText>
+          <InactiveCursorColor>-2147483645</InactiveCursorColor>
+          <InactiveMarkColor>128</InactiveMarkColor>
+          <UseInvertedSelection>False</UseInvertedSelection>
+          <UseInactiveSelColor>False</UseInactiveSelColor>
+          <Overcolor>True</Overcolor>
+        </Column>
+        <Column>
+          <Title>Дата</Title>
+          <FuncString>[DC().GETFILETIME{}]</FuncString>
+          <Width>140</Width>
+          <Align>1</Align>
+          <Font>
+            <Name>default</Name>
+            <Size>10</Size>
+            <Style>1</Style>
+            <Quality>0</Quality>
+          </Font>
+          <TextColor>-2147483640</TextColor>
+          <Background>-2147483643</Background>
+          <Background2>-2147483643</Background2>
+          <MarkColor>255</MarkColor>
+          <CursorColor>-2147483635</CursorColor>
+          <CursorText>-2147483634</CursorText>
+          <InactiveCursorColor>-2147483645</InactiveCursorColor>
+          <InactiveMarkColor>128</InactiveMarkColor>
+          <UseInvertedSelection>False</UseInvertedSelection>
+          <UseInactiveSelColor>False</UseInactiveSelColor>
+          <Overcolor>True</Overcolor>
+        </Column>
+        <Column>
+          <Title>Атриб</Title>
+          <FuncString>[DC().GETFILEATTR{}]</FuncString>
+          <Width>100</Width>
+          <Align>0</Align>
+          <Font>
+            <Name>default</Name>
+            <Size>10</Size>
+            <Style>1</Style>
+            <Quality>0</Quality>
+          </Font>
+          <TextColor>-2147483640</TextColor>
+          <Background>-2147483643</Background>
+          <Background2>-2147483643</Background2>
+          <MarkColor>255</MarkColor>
+          <CursorColor>-2147483635</CursorColor>
+          <CursorText>-2147483634</CursorText>
+          <InactiveCursorColor>-2147483645</InactiveCursorColor>
+          <InactiveMarkColor>128</InactiveMarkColor>
+          <UseInvertedSelection>False</UseInvertedSelection>
+          <UseInactiveSelColor>False</UseInactiveSelColor>
+          <Overcolor>True</Overcolor>
+        </Column>
+      </Columns>
+    </ColumnsSet>
+  </ColumnsSets>
+</doublecmd>
