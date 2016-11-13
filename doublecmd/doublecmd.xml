@@ -6,31 +6,7 @@
   <Colors>
     <FileFilters>
       <Filter>
-        <Name>Pascal sources</Name>
-        <FileMasks>*.pas;*.pp</FileMasks>
-        <Color>32768</Color>
-        <Attributes/>
-      </Filter>
-      <Filter>
-        <Name>Pascal binaries</Name>
-        <FileMasks>*.ppu;*.o;*.dcu</FileMasks>
-        <Color>16711680</Color>
-        <Attributes/>
-      </Filter>
-      <Filter>
-        <Name>Specified Executables</Name>
-        <FileMasks>*</FileMasks>
-        <Color>55758</Color>
-        <Attributes>-rwxrwxr*x</Attributes>
-      </Filter>
-      <Filter>
-        <Name>Executables</Name>
-        <FileMasks>*</FileMasks>
-        <Color>32768</Color>
-        <Attributes>-*x*</Attributes>
-      </Filter>
-      <Filter>
-        <Name>mp3</Name>
+        <Name>music</Name>
         <FileMasks>*mp3;*m3u</FileMasks>
         <Color>8421376</Color>
         <Attributes/>
@@ -43,17 +19,53 @@
       </Filter>
       <Filter>
         <Name>txt</Name>
-        <FileMasks>*txt</FileMasks>
+        <FileMasks>*txt;*doc;</FileMasks>
         <Color>10789024</Color>
         <Attributes/>
+      </Filter>
+      <Filter>
+        <Name>php</Name>
+        <FileMasks>*php</FileMasks>
+        <Color>16736255</Color>
+        <Attributes/>
+      </Filter>
+      <Filter>
+        <Name>js</Name>
+        <FileMasks>*js</FileMasks>
+        <Color>2657002</Color>
+        <Attributes/>
+      </Filter>
+      <Filter>
+        <Name>html/css</Name>
+        <FileMasks>*hml;*css;</FileMasks>
+        <Color>16749716</Color>
+        <Attributes/>
+      </Filter>
+      <Filter>
+        <Name>imgs</Name>
+        <FileMasks>*png;*jpg;*jpeg;</FileMasks>
+        <Color>16776960</Color>
+        <Attributes/>
+      </Filter>
+      <Filter>
+        <Name>archives</Name>
+        <FileMasks>*zip;*7z;*rar;*gz;</FileMasks>
+        <Color>255</Color>
+        <Attributes/>
+      </Filter>
+      <Filter>
+        <Name>hidden</Name>
+        <FileMasks>.*;</FileMasks>
+        <Color>8565378</Color>
+        <Attributes>-*;d*;</Attributes>
       </Filter>
     </FileFilters>
     <UseCursorBorder>False</UseCursorBorder>
     <CursorBorderColor>-2147483635</CursorBorderColor>
     <UseFrameCursor>False</UseFrameCursor>
     <Foreground>15793151</Foreground>
-    <Background>-2147483641</Background>
-    <Background2>-2147483641</Background2>
+    <Background>-2147483624</Background>
+    <Background2>-2147483624</Background2>
     <Cursor>-2147483621</Cursor>
     <CursorText>0</CursorText>
     <Mark>65535</Mark>
@@ -286,60 +298,66 @@
         <ActiveTab>0</ActiveTab>
         <Tab>
           <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>12</Function>
+              </Sorting>
+            </Sortings>
             <History>
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="..">/home/vprobe/Download/</Path>
-                  <Path Filename=".config">/home/vprobe/</Path>
-                  <Path Filename="..">/home/vprobe/.config/</Path>
-                  <Path Filename="www">/home/vprobe/</Path>
-                  <Path Filename="..">/home/vprobe/www/</Path>
-                  <Path Filename="www">/home/vprobe/</Path>
-                  <Path Filename="..">/home/vprobe/www/</Path>
-                  <Path Filename="work">/home/vprobe/</Path>
-                  <Path Filename="..">/home/vprobe/work/</Path>
-                  <Path Filename="Рабочий стол">/home/vprobe/</Path>
-                  <Path Filename="..">/home/vprobe/Рабочий стол/</Path>
+                  <Path Filename="home">/</Path>
+                  <Path Filename="vprobe">/home/</Path>
+                  <Path Filename="configs">/home/vprobe/</Path>
+                  <Path Filename="doublecmd">/home/vprobe/configs/</Path>
+                  <Path Filename="..">/home/vprobe/configs/doublecmd/</Path>
+                  <Path Filename="mc">/home/vprobe/configs/</Path>
+                  <Path Filename="..">/home/vprobe/configs/mc/</Path>
+                  <Path Filename="..">/home/vprobe/configs/</Path>
+                  <Path Filename="common_dir">/home/vprobe/</Path>
+                  <Path Filename="..">/home/vprobe/common_dir/</Path>
                   <Path Filename="Pictures">/home/vprobe/</Path>
                   <Path Filename="..">/home/vprobe/Pictures/</Path>
-                  <Path Filename="Download">/home/vprobe/</Path>
-                  <Path Filename="Telegram Desktop">/home/vprobe/Download/</Path>
-                  <Path Filename="Desktop">/home/vprobe/</Path>
-                  <Path Filename="conf">/home/vprobe/Desktop/</Path>
-                  <Path Filename="firefox">/home/vprobe/Desktop/conf/</Path>
-                  <Path Filename="..">/home/vprobe/Desktop/conf/firefox/</Path>
-                  <Path Filename="linux">/home/vprobe/Desktop/conf/</Path>
-                  <Path Filename="..">/home/vprobe/Desktop/conf/linux/</Path>
-                  <Path Filename="mc">/home/vprobe/Desktop/conf/</Path>
-                  <Path Filename="..">/home/vprobe/Desktop/conf/mc/</Path>
-                  <Path Filename="vim">/home/vprobe/Desktop/conf/</Path>
-                  <Path Filename="vimrc_with_vundle">/home/vprobe/Desktop/conf/vim/</Path>
-                  <Path Filename="..">/home/vprobe/Desktop/conf/vim/vimrc_with_vundle/</Path>
-                  <Path Filename="..">/home/vprobe/Desktop/conf/vim/</Path>
-                  <Path Filename="mc">/home/vprobe/Desktop/conf/</Path>
-                  <Path Filename="panels.ini">/home/vprobe/Desktop/conf/mc/</Path>
-                  <Path Filename="firefox">/home/vprobe/Desktop/conf/</Path>
-                  <Path Filename="..">/home/vprobe/Desktop/conf/firefox/</Path>
-                  <Path Filename="linux">/home/vprobe/Desktop/conf/</Path>
-                  <Path Filename="pics">/home/vprobe/Desktop/conf/linux/</Path>
-                  <Path Filename="..">/home/vprobe/Desktop/conf/linux/pics/</Path>
-                  <Path Filename="fstab">/home/vprobe/Desktop/conf/linux/</Path>
-                  <Path Filename="firefox">/home/vprobe/Desktop/conf/</Path>
-                  <Path Filename="addons.txt">/home/vprobe/Desktop/conf/firefox/</Path>
-                  <Path Filename="..">/run/user/1000/gvfs/</Path>
-                  <Path Filename="gvfs">/run/user/1000/</Path>
-                  <Path Filename="projects_backup">/media/vprobe/samsung_T1/</Path>
-                  <Path Filename="lifeTB">/media/vprobe/samsung_T1/projects_backup/</Path>
-                  <Path Filename="..">/media/vprobe/samsung_T1/projects_backup/lifeTB/</Path>
-                  <Path Filename="lifeTB">/media/vprobe/samsung_T1/projects_backup/</Path>
-                  <Path Filename="..">/media/vprobe/samsung_T1/projects_backup/lifeTB/</Path>
-                  <Path Filename="..">/media/vprobe/samsung_T1/projects_backup/</Path>
-                  <Path Filename="projects_backup">/media/vprobe/samsung_T1/</Path>
-                  <Path Filename="..">/run/user/1000/gvfs/</Path>
-                  <Path Filename="gvfs">/run/user/1000/</Path>
-                  <Path Filename="1000">/run/user/</Path>
-                  <Path Filename="..">/media/vprobe/samsung_T1/</Path>
+                  <Path Filename="common_dir">/home/vprobe/</Path>
+                  <Path Filename="conf">/home/vprobe/common_dir/</Path>
+                  <Path Filename="linux">/home/vprobe/common_dir/conf/</Path>
+                  <Path Filename="pics">/home/vprobe/common_dir/conf/linux/</Path>
+                  <Path Filename="lampo4ka_rab_stol.jpg">/home/vprobe/common_dir/conf/linux/pics/</Path>
+                  <Path Filename=".java">/home/vprobe/</Path>
+                  <Path Filename="..">/etc/apache2/</Path>
+                  <Path Filename="apparmor.d">/etc/</Path>
+                  <Path Filename=".config">/home/vprobe/</Path>
+                  <Path Filename="doublecmd">/home/vprobe/.config/</Path>
+                  <Path Filename="multiarc.ini">/home/vprobe/.config/doublecmd/</Path>
+                  <Path Filename="doublecmd">/home/vprobe/.config/</Path>
+                  <Path Filename=".dbus">/home/vprobe/</Path>
+                  <Path Filename="vprobe">/home/</Path>
+                  <Path Filename="cdrom">/</Path>
+                  <Path Filename="..">/home/vprobe/</Path>
+                  <Path Filename="vprobe">/home/</Path>
+                  <Path Filename="test">/home/vprobe/</Path>
+                  <Path Filename="..">/home/vprobe/test/</Path>
+                  <Path Filename="..">/home/vprobe/</Path>
+                  <Path Filename="vprobe">/home/</Path>
+                  <Path Filename="PhpStorm-145.1616.3">/home/vprobe/</Path>
+                  <Path Filename="opt">/</Path>
+                  <Path Filename="test">/home/vprobe/</Path>
+                  <Path Filename="1.txt">/home/vprobe/test/</Path>
+                  <Path Filename="test">/home/vprobe/</Path>
+                  <Path Filename="..">/home/vprobe/test/</Path>
+                  <Path Filename="configs">/home/vprobe/</Path>
+                  <Path Filename="..">/home/vprobe/configs/</Path>
+                  <Path Filename="PhpStorm-145.1616.3">/home/vprobe/</Path>
+                  <Path Filename="..">/home/vprobe/PhpStorm-145.1616.3/</Path>
+                  <Path Filename=".pki">/home/vprobe/</Path>
+                  <Path Filename="..">/home/vprobe/.pki/</Path>
+                  <Path Filename="Music">/home/vprobe/</Path>
+                  <Path Filename="..">/home/vprobe/Music/</Path>
+                  <Path Filename=".config">/home/vprobe/</Path>
+                  <Path Filename="doublecmd">/home/vprobe/.config/</Path>
+                  <Path Filename="doublecmd.xml">/home/vprobe/.config/doublecmd/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -353,124 +371,66 @@
         <ActiveTab>0</ActiveTab>
         <Tab>
           <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>12</Function>
+              </Sorting>
+            </Sortings>
             <History>
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="Dropbox">/home/vprobe/</Path>
+                  <Path Filename="..">/home/vprobe/PhpStorm-145.1616.3/</Path>
+                  <Path Filename="configs">/home/vprobe/</Path>
+                  <Path Filename="vim">/home/vprobe/configs/</Path>
+                  <Path Filename="common_dir">/home/vprobe/</Path>
+                  <Path Filename="conf">/home/vprobe/common_dir/</Path>
+                  <Path Filename="..">/home/vprobe/common_dir/conf/</Path>
+                  <Path Filename="conf">/home/vprobe/common_dir/</Path>
+                  <Path Filename=".dockbarx">/home/vprobe/</Path>
+                  <Path Filename="..">/home/vprobe/.dockbarx/</Path>
+                  <Path Filename=".macromedia">/home/vprobe/</Path>
+                  <Path Filename="..">/home/vprobe/.macromedia/</Path>
+                  <Path Filename=".macromedia">/home/vprobe/</Path>
+                  <Path Filename="..">/home/vprobe/.macromedia/</Path>
+                  <Path Filename="..">/home/vprobe/</Path>
                   <Path Filename="vprobe">/home/</Path>
-                  <Path Filename="Download">/home/vprobe/</Path>
-                  <Path Filename="Minimal-Like-Dislike-Button-Plugin-with-jQuery-like-dislike">/home/vprobe/Download/</Path>
-                  <Path Filename="..">/home/vprobe/Download/Minimal-Like-Dislike-Button-Plugin-with-jQuery-like-dislike/</Path>
-                  <Path Filename="..">/home/vprobe/Download/</Path>
-                  <Path Filename=".gitconfig">/home/vprobe/</Path>
+                  <Path Filename=".config">/home/vprobe/</Path>
+                  <Path Filename="composer">/home/vprobe/.config/</Path>
+                  <Path Filename="www">/home/vprobe/</Path>
+                  <Path Filename="project">/home/vprobe/www/</Path>
+                  <Path Filename="common_dir">/home/vprobe/</Path>
+                  <Path Filename="..">/home/vprobe/common_dir/</Path>
+                  <Path Filename="Downloads">/home/vprobe/</Path>
+                  <Path Filename="CodeIgniter-develop.zip">/home/vprobe/Downloads/</Path>
+                  <Path Filename=".gnome">/home/vprobe/</Path>
                   <Path Filename="vprobe">/home/</Path>
-                  <Path Filename="www">/home/vprobe/</Path>
-                  <Path Filename="lifeTB">/home/vprobe/www/</Path>
-                  <Path Filename="frontend">/home/vprobe/www/lifeTB/</Path>
-                  <Path Filename="assets">/home/vprobe/www/lifeTB/frontend/</Path>
-                  <Path Filename="..">/home/vprobe/www/lifeTB/frontend/assets/</Path>
-                  <Path Filename="components">/home/vprobe/www/lifeTB/frontend/</Path>
-                  <Path Filename="..">/home/vprobe/www/lifeTB/frontend/components/</Path>
-                  <Path Filename="config">/home/vprobe/www/lifeTB/frontend/</Path>
-                  <Path Filename="..">/home/vprobe/www/lifeTB/frontend/config/</Path>
-                  <Path Filename="controllers">/home/vprobe/www/lifeTB/frontend/</Path>
-                  <Path Filename="..">/home/vprobe/www/lifeTB/frontend/controllers/</Path>
-                  <Path Filename="controllers">/home/vprobe/www/lifeTB/frontend/</Path>
-                  <Path Filename=".git">/home/vprobe/www/lifeTB/</Path>
-                  <Path Filename="lifeTB">/home/vprobe/www/</Path>
-                  <Path Filename="Music">/home/vprobe/</Path>
-                  <Path Filename="Empire Of The Sun - Two Vines (2016)">/home/vprobe/Music/</Path>
-                  <Path Filename="08. Digital Life.mp3">/home/vprobe/Music/Empire Of The Sun - Two Vines (2016)/</Path>
-                  <Path Filename="Empire Of The Sun - Two Vines (2016)">/home/vprobe/Music/</Path>
-                  <Path Filename="07. Ride.mp3">/home/vprobe/Music/Empire Of The Sun - Two Vines (2016)/</Path>
-                  <Path Filename="Empire Of The Sun - Two Vines (2016)">/home/vprobe/Music/</Path>
-                  <Path Filename="08. Digital Life.mp3">/home/vprobe/Music/Empire Of The Sun - Two Vines (2016)/</Path>
-                  <Path Filename="Empire Of The Sun - Two Vines (2016)">/home/vprobe/Music/</Path>
-                  <Path Filename="..">/home/vprobe/Music/Empire Of The Sun - Two Vines (2016)/</Path>
-                  <Path Filename="Empire Of The Sun - Two Vines (2016)">/home/vprobe/Music/</Path>
-                  <Path Filename="Pictures">/home/vprobe/</Path>
-                  <Path Filename="solar_system-wallpaper-1680x1050.jpg">/home/vprobe/Pictures/</Path>
-                  <Path Filename="www">/home/vprobe/</Path>
-                  <Path Filename="lifeTB">/home/vprobe/www/</Path>
-                  <Path Filename=".idea">/home/vprobe/www/lifeTB/</Path>
-                  <Path Filename="lifeTB">/home/vprobe/www/</Path>
-                  <Path Filename="tests">/home/vprobe/www/lifeTB/</Path>
-                  <Path Filename="CItestProj">/home/vprobe/www/</Path>
-                  <Path Filename="tests">/home/vprobe/www/CItestProj/</Path>
-                  <Path Filename="lifeTB">/home/vprobe/www/</Path>
-                  <Path Filename="frontend">/home/vprobe/www/lifeTB/</Path>
-                  <Path Filename="lifeTB">/home/vprobe/www/</Path>
-                  <Path Filename="Music">/home/vprobe/</Path>
-                  <Path Filename="Empire Of The Sun - Two Vines (2016)">/home/vprobe/Music/</Path>
-                  <Path Filename="..">/home/vprobe/Music/Empire Of The Sun - Two Vines (2016)/</Path>
-                  <Path Filename="Empire Of The Sun - Two Vines (2016)">/home/vprobe/Music/</Path>
-                  <Path Filename="Pictures">/home/vprobe/</Path>
-                  <Path Filename="VeryBig-Horizontal.jpg">/home/vprobe/Pictures/</Path>
-                </Paths>
-              </Entry>
-            </History>
-            <ColumnsView>
-              <ColumnsSet>Default</ColumnsSet>
-            </ColumnsView>
-          </FileView>
-        </Tab>
-        <Tab>
-          <FileView Type="columns">
-            <History>
-              <Entry Active="True">
-                <FileSource Type="FileSystem"/>
-                <Paths>
-                  <Path Filename="photo_170x95">/home/vprobe/www/lifeTB/backend/web/uploads/miniatures/</Path>
-                  <Path Filename="..">/home/vprobe/www/lifeTB/backend/web/uploads/miniatures/photo_170x95/</Path>
-                  <Path Filename="photo_810x542">/home/vprobe/www/lifeTB/backend/web/uploads/miniatures/</Path>
-                  <Path Filename="..">/home/vprobe/www/lifeTB/backend/web/uploads/miniatures/photo_810x542/</Path>
-                  <Path Filename="photo_170x95">/home/vprobe/www/lifeTB/backend/web/uploads/miniatures/</Path>
-                  <Path Filename="..">/home/vprobe/www/lifeTB/backend/web/uploads/miniatures/photo_170x95/</Path>
-                  <Path Filename="photo_810x542">/home/vprobe/www/lifeTB/backend/web/uploads/miniatures/</Path>
-                  <Path Filename="..">/home/vprobe/www/lifeTB/backend/web/uploads/miniatures/photo_810x542/</Path>
-                  <Path Filename="photo_170x95">/home/vprobe/www/lifeTB/backend/web/uploads/miniatures/</Path>
-                  <Path Filename="imgs">/home/vprobe/www/lifeTB/backend/web/uploads/</Path>
-                  <Path Filename="photo_full">/home/vprobe/www/lifeTB/backend/web/uploads/imgs/</Path>
-                  <Path Filename="006196740664.jpg">/home/vprobe/www/lifeTB/backend/web/uploads/imgs/photo_full/</Path>
-                  <Path Filename="photo_full">/home/vprobe/www/lifeTB/backend/web/uploads/imgs/</Path>
-                  <Path Filename="miniatures">/home/vprobe/www/lifeTB/backend/web/uploads/</Path>
-                  <Path Filename="photo_170x95">/home/vprobe/www/lifeTB/backend/web/uploads/miniatures/</Path>
-                  <Path Filename="imgs">/home/vprobe/www/lifeTB/backend/web/uploads/</Path>
-                  <Path Filename=".gitignore">/home/vprobe/www/lifeTB/backend/web/uploads/imgs/</Path>
-                  <Path Filename="miniatures">/home/vprobe/www/lifeTB/backend/web/uploads/</Path>
-                  <Path Filename="photo_170x95">/home/vprobe/www/lifeTB/backend/web/uploads/miniatures/</Path>
-                  <Path Filename="miniatures">/home/vprobe/www/lifeTB/backend/web/uploads/</Path>
-                  <Path Filename="uploads">/home/vprobe/www/lifeTB/backend/web/</Path>
-                  <Path Filename="web">/home/vprobe/www/lifeTB/backend/</Path>
-                  <Path Filename="backend">/home/vprobe/www/lifeTB/</Path>
-                  <Path Filename="lifeTB">/home/vprobe/www/</Path>
-                  <Path Filename="Download">/home/vprobe/</Path>
-                  <Path Filename="Minimal-Like-Dislike-Button-Plugin-with-jQuery-like-dislike">/home/vprobe/Download/</Path>
+                  <Path Filename="home">/</Path>
+                  <Path Filename="..">/home/</Path>
+                  <Path Filename="home">/</Path>
+                  <Path Filename="vprobe">/home/</Path>
+                  <Path Filename=".config">/home/vprobe/</Path>
+                  <Path Filename="doublecmd">/home/vprobe/.config/</Path>
+                  <Path Filename="..">/home/vprobe/.config/doublecmd/</Path>
+                  <Path Filename="autostart">/home/vprobe/.config/</Path>
+                  <Path Filename="..">/home/vprobe/.config/autostart/</Path>
+                  <Path Filename="autostart">/home/vprobe/.config/</Path>
+                  <Path Filename="..">/home/vprobe/.config/autostart/</Path>
+                  <Path Filename="..">/home/vprobe/.config/</Path>
+                  <Path Filename="common_dir">/home/vprobe/</Path>
+                  <Path Filename="..">/home/vprobe/common_dir/</Path>
                   <Path Filename="Desktop">/home/vprobe/</Path>
-                  <Path Filename="conf">/home/vprobe/Desktop/</Path>
-                  <Path Filename="firefox">/home/vprobe/Desktop/conf/</Path>
-                  <Path Filename="..">/home/vprobe/Desktop/conf/firefox/</Path>
-                  <Path Filename="linux">/home/vprobe/Desktop/conf/</Path>
-                  <Path Filename="mocp">/home/vprobe/Desktop/conf/linux/</Path>
-                  <Path Filename="mc">/home/vprobe/Desktop/conf/</Path>
-                  <Path Filename="..">/home/vprobe/Desktop/conf/mc/</Path>
-                  <Path Filename="txt">/home/vprobe/Desktop/conf/</Path>
-                  <Path Filename="..">/home/vprobe/Desktop/conf/txt/</Path>
-                  <Path Filename="vim">/home/vprobe/Desktop/conf/</Path>
-                  <Path Filename="..">/home/vprobe/Desktop/conf/vim/</Path>
-                  <Path Filename="vim">/home/vprobe/Desktop/conf/</Path>
-                  <Path Filename="conf">/home/vprobe/Desktop/</Path>
-                  <Path Filename="config">/home/vprobe/</Path>
-                  <Path Filename="vim">/home/vprobe/config/</Path>
-                  <Path Filename="..">/home/vprobe/config/vim/</Path>
-                  <Path Filename="vim">/home/vprobe/config/</Path>
-                  <Path Filename="..">/home/vprobe/config/vim/</Path>
-                  <Path Filename="mc">/home/vprobe/config/</Path>
-                  <Path Filename="..">/home/vprobe/config/mc/</Path>
-                  <Path Filename=".git">/home/vprobe/config/</Path>
-                  <Path Filename="..">/run/user/1000/gvfs/</Path>
-                  <Path Filename="keyring">/run/user/1000/</Path>
+                  <Path Filename="..">/home/vprobe/Desktop/</Path>
+                  <Path Filename=".vim">/home/vprobe/</Path>
+                  <Path Filename="..">/home/vprobe/.vim/</Path>
+                  <Path Filename="www">/home/vprobe/</Path>
+                  <Path Filename="testproj">/home/vprobe/www/</Path>
+                  <Path Filename="..">/home/vprobe/www/testproj/</Path>
+                  <Path Filename="..">/home/vprobe/www/</Path>
+                  <Path Filename="configs">/home/vprobe/</Path>
+                  <Path Filename="doublecmd">/home/vprobe/configs/</Path>
+                  <Path Filename="doublecmd.xml">/home/vprobe/configs/doublecmd/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -481,19 +441,19 @@
         </Tab>
       </Right>
     </OpenedTabs>
-    <Options>49937</Options>
+    <Options>49936</Options>
     <CharacterLimit>32</CharacterLimit>
     <Position>0</Position>
     <ActionOnDoubleClick>2</ActionOnDoubleClick>
   </Tabs>
   <MainWindow>
     <Position>
-      <Left>398</Left>
-      <Top>245</Top>
-      <Width>1235</Width>
+      <Left>483</Left>
+      <Top>261</Top>
+      <Width>1195</Width>
       <Height>733</Height>
       <Maximized>False</Maximized>
-      <Splitter>50</Splitter>
+      <Splitter>49,9557913351017</Splitter>
     </Position>
   </MainWindow>
   <Language>
@@ -514,34 +474,34 @@
     <AlwaysShowTrayIcon>False</AlwaysShowTrayIcon>
     <Mouse>
       <Selection Enabled="True">
-        <Button>0</Button>
+        <Button>1</Button>
       </Selection>
       <ScrollMode>1</ScrollMode>
       <WheelScrollLines>3</WheelScrollLines>
     </Mouse>
-    <AutoFillColumns>False</AutoFillColumns>
-    <AutoSizeColumn>1</AutoSizeColumn>
+    <AutoFillColumns>True</AutoFillColumns>
+    <AutoSizeColumn>0</AutoSizeColumn>
     <CustomColumnsChangeAllColumns>False</CustomColumnsChangeAllColumns>
     <BriefViewFileExtAligned>False</BriefViewFileExtAligned>
-    <DateTimeFormat>dd.mm.yyyy hh:nn:ss</DateTimeFormat>
+    <DateTimeFormat>dd.mm.yyyy</DateTimeFormat>
     <CutTextToColumnWidth>True</CutTextToColumnWidth>
     <ShowSystemFiles>True</ShowSystemFiles>
     <ListFilesInThread>True</ListFilesInThread>
     <LoadIconsSeparately>True</LoadIconsSeparately>
     <DelayLoadingTabs>True</DelayLoadingTabs>
     <HighlightUpdatedFiles>True</HighlightUpdatedFiles>
-    <DriveBlackList>gvfsd-fuse</DriveBlackList>
+    <DriveBlackList>gvfsd-fuse;</DriveBlackList>
     <DriveBlackListUnmounted>False</DriveBlackListUnmounted>
   </Behaviours>
   <Tools>
-    <Viewer Enabled="False">
-      <Path/>
+    <Viewer Enabled="True">
+      <Path>/usr/bin/mousepad</Path>
       <Parameters/>
       <RunInTerminal>False</RunInTerminal>
       <KeepTerminalOpen>False</KeepTerminalOpen>
     </Viewer>
-    <Editor Enabled="False">
-      <Path/>
+    <Editor Enabled="True">
+      <Path>/usr/bin/mousepad</Path>
       <Parameters/>
       <RunInTerminal>False</RunInTerminal>
       <KeepTerminalOpen>False</KeepTerminalOpen>
@@ -556,9 +516,9 @@
   </Tools>
   <Fonts>
     <Main>
-      <Name>default</Name>
-      <Size>10</Size>
-      <Style>1</Style>
+      <Name>Sans</Name>
+      <Size>9</Size>
+      <Style>0</Style>
       <Quality>0</Quality>
     </Main>
     <Editor>
@@ -593,12 +553,12 @@
     </Console>
   </Fonts>
   <ToolTips>
-    <ShowToolTipMode>True</ShowToolTipMode>
+    <ShowToolTipMode>False</ShowToolTipMode>
     <CustomFields/>
   </ToolTips>
   <Layout>
     <MainMenu>True</MainMenu>
-    <ButtonBar Enabled="True">
+    <ButtonBar Enabled="False">
       <FlatIcons>True</FlatIcons>
       <ButtonHeight>24</ButtonHeight>
       <IconSize>16</IconSize>
@@ -607,7 +567,7 @@
     <DriveBar1>True</DriveBar1>
     <DriveBar2>True</DriveBar2>
     <DriveBarFlat>False</DriveBarFlat>
-    <DrivesListButton Enabled="True">
+    <DrivesListButton Enabled="False">
       <ShowLabel>True</ShowLabel>
       <ShowFileSystem>True</ShowFileSystem>
       <ShowFreeSpace>True</ShowFreeSpace>
@@ -617,7 +577,7 @@
     <CurrentDirectory>True</CurrentDirectory>
     <TabHeader>True</TabHeader>
     <StatusBar>True</StatusBar>
-    <CmdLine>False</CmdLine>
+    <CmdLine>True</CmdLine>
     <LogWindow>False</LogWindow>
     <TermWindow>False</TermWindow>
     <KeyButtons>False</KeyButtons>
@@ -672,7 +632,7 @@
     <UseTrash>True</UseTrash>
     <SkipFileOpError>False</SkipFileOpError>
     <TypeOfDuplicatedRename>0</TypeOfDuplicatedRename>
-    <ShowDialogOnDragDrop>False</ShowDialogOnDragDrop>
+    <ShowDialogOnDragDrop>True</ShowDialogOnDragDrop>
     <DragAndDropTextRichtextDesireLevel>0</DragAndDropTextRichtextDesireLevel>
     <DragAndDropTextHtmlDesireLevel>1</DragAndDropTextHtmlDesireLevel>
     <DragAndDropTextUnicodeDesireLevel>2</DragAndDropTextUnicodeDesireLevel>
@@ -757,8 +717,8 @@
   </IgnoreList>
   <DirectoryHotList>
     <HotDir Name="vprobe" Path="/home/vprobe/"/>
-    <HotDir Name="apache2" Path="/etc/apache2/"/>
     <HotDir Name="lifeTB" Path="/home/vprobe/www/lifeTB/"/>
+    <HotDir Name="apache2" Path="/etc/apache2/"/>
     <HotDir Name="txt" Path="/home/vprobe/Desktop/conf/txt/"/>
   </DirectoryHotList>
   <Viewer>
@@ -774,7 +734,7 @@
     <PaintMode>Pen</PaintMode>
     <PaintWidth>5</PaintWidth>
     <NumberOfColumns>1</NumberOfColumns>
-    <ViewerMode>0</ViewerMode>
+    <ViewerMode>1</ViewerMode>
     <PaintColor>255</PaintColor>
     <BackgroundColor>0</BackgroundColor>
     <FontColor>16777215</FontColor>
@@ -835,22 +795,22 @@
         <Column>
           <Title>Имя</Title>
           <FuncString>[DC().GETFILENAMENOEXT{}]</FuncString>
-          <Width>250</Width>
+          <Width>307</Width>
           <Align>0</Align>
           <Font>
-            <Name>default</Name>
-            <Size>10</Size>
-            <Style>1</Style>
+            <Name>Sans</Name>
+            <Size>9</Size>
+            <Style>0</Style>
             <Quality>0</Quality>
           </Font>
-          <TextColor>-2147483640</TextColor>
-          <Background>-2147483643</Background>
-          <Background2>-2147483643</Background2>
-          <MarkColor>255</MarkColor>
-          <CursorColor>-2147483635</CursorColor>
-          <CursorText>-2147483634</CursorText>
+          <TextColor>15793151</TextColor>
+          <Background>-2147483624</Background>
+          <Background2>-2147483624</Background2>
+          <MarkColor>65535</MarkColor>
+          <CursorColor>-2147483621</CursorColor>
+          <CursorText>0</CursorText>
           <InactiveCursorColor>-2147483645</InactiveCursorColor>
-          <InactiveMarkColor>128</InactiveMarkColor>
+          <InactiveMarkColor>65535</InactiveMarkColor>
           <UseInvertedSelection>False</UseInvertedSelection>
           <UseInactiveSelColor>False</UseInactiveSelColor>
           <Overcolor>True</Overcolor>
@@ -858,22 +818,22 @@
         <Column>
           <Title>Тип</Title>
           <FuncString>[DC().GETFILEEXT{}]</FuncString>
-          <Width>50</Width>
+          <Width>39</Width>
           <Align>0</Align>
           <Font>
-            <Name>default</Name>
-            <Size>10</Size>
-            <Style>1</Style>
+            <Name>Sans</Name>
+            <Size>9</Size>
+            <Style>0</Style>
             <Quality>0</Quality>
           </Font>
-          <TextColor>-2147483640</TextColor>
-          <Background>-2147483643</Background>
-          <Background2>-2147483643</Background2>
-          <MarkColor>255</MarkColor>
-          <CursorColor>-2147483635</CursorColor>
-          <CursorText>-2147483634</CursorText>
+          <TextColor>15793151</TextColor>
+          <Background>-2147483624</Background>
+          <Background2>-2147483624</Background2>
+          <MarkColor>65535</MarkColor>
+          <CursorColor>-2147483621</CursorColor>
+          <CursorText>0</CursorText>
           <InactiveCursorColor>-2147483645</InactiveCursorColor>
-          <InactiveMarkColor>128</InactiveMarkColor>
+          <InactiveMarkColor>65535</InactiveMarkColor>
           <UseInvertedSelection>False</UseInvertedSelection>
           <UseInactiveSelColor>False</UseInactiveSelColor>
           <Overcolor>True</Overcolor>
@@ -881,22 +841,22 @@
         <Column>
           <Title>Размер</Title>
           <FuncString>[DC().GETFILESIZE{}]</FuncString>
-          <Width>78</Width>
+          <Width>72</Width>
           <Align>1</Align>
           <Font>
-            <Name>default</Name>
-            <Size>10</Size>
-            <Style>1</Style>
+            <Name>Sans</Name>
+            <Size>9</Size>
+            <Style>0</Style>
             <Quality>0</Quality>
           </Font>
-          <TextColor>-2147483640</TextColor>
-          <Background>-2147483643</Background>
-          <Background2>-2147483643</Background2>
-          <MarkColor>255</MarkColor>
-          <CursorColor>-2147483635</CursorColor>
-          <CursorText>-2147483634</CursorText>
+          <TextColor>15793151</TextColor>
+          <Background>-2147483624</Background>
+          <Background2>-2147483624</Background2>
+          <MarkColor>65535</MarkColor>
+          <CursorColor>-2147483621</CursorColor>
+          <CursorText>0</CursorText>
           <InactiveCursorColor>-2147483645</InactiveCursorColor>
-          <InactiveMarkColor>128</InactiveMarkColor>
+          <InactiveMarkColor>65535</InactiveMarkColor>
           <UseInvertedSelection>False</UseInvertedSelection>
           <UseInactiveSelColor>False</UseInactiveSelColor>
           <Overcolor>True</Overcolor>
@@ -904,22 +864,22 @@
         <Column>
           <Title>Дата</Title>
           <FuncString>[DC().GETFILETIME{}]</FuncString>
-          <Width>140</Width>
+          <Width>91</Width>
           <Align>1</Align>
           <Font>
-            <Name>default</Name>
-            <Size>10</Size>
-            <Style>1</Style>
+            <Name>Sans</Name>
+            <Size>9</Size>
+            <Style>0</Style>
             <Quality>0</Quality>
           </Font>
-          <TextColor>-2147483640</TextColor>
-          <Background>-2147483643</Background>
-          <Background2>-2147483643</Background2>
-          <MarkColor>255</MarkColor>
-          <CursorColor>-2147483635</CursorColor>
-          <CursorText>-2147483634</CursorText>
+          <TextColor>15793151</TextColor>
+          <Background>-2147483624</Background>
+          <Background2>-2147483624</Background2>
+          <MarkColor>65535</MarkColor>
+          <CursorColor>-2147483621</CursorColor>
+          <CursorText>0</CursorText>
           <InactiveCursorColor>-2147483645</InactiveCursorColor>
-          <InactiveMarkColor>128</InactiveMarkColor>
+          <InactiveMarkColor>65535</InactiveMarkColor>
           <UseInvertedSelection>False</UseInvertedSelection>
           <UseInactiveSelColor>False</UseInactiveSelColor>
           <Overcolor>True</Overcolor>
@@ -930,19 +890,19 @@
           <Width>100</Width>
           <Align>0</Align>
           <Font>
-            <Name>default</Name>
-            <Size>10</Size>
-            <Style>1</Style>
+            <Name>Sans</Name>
+            <Size>9</Size>
+            <Style>0</Style>
             <Quality>0</Quality>
           </Font>
-          <TextColor>-2147483640</TextColor>
-          <Background>-2147483643</Background>
-          <Background2>-2147483643</Background2>
-          <MarkColor>255</MarkColor>
-          <CursorColor>-2147483635</CursorColor>
-          <CursorText>-2147483634</CursorText>
+          <TextColor>15793151</TextColor>
+          <Background>-2147483624</Background>
+          <Background2>-2147483624</Background2>
+          <MarkColor>65535</MarkColor>
+          <CursorColor>-2147483621</CursorColor>
+          <CursorText>0</CursorText>
           <InactiveCursorColor>-2147483645</InactiveCursorColor>
-          <InactiveMarkColor>128</InactiveMarkColor>
+          <InactiveMarkColor>65535</InactiveMarkColor>
           <UseInvertedSelection>False</UseInvertedSelection>
           <UseInactiveSelColor>False</UseInactiveSelColor>
           <Overcolor>True</Overcolor>
