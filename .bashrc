@@ -117,8 +117,11 @@ if ! shopt -oq posix; then
 fi
 
 # ========================PROMT===========================
+parse_git_branch() {
+	git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+}
 # PS1="\[[\e[1;37m\]\[\e[1;32m\]\u\[\e[0;39m\]@jobs:\j]\n\w\\$ \[\e[0m\]"
-PS1="\n\[\e[1;37m\][\[\e[1;32m\]\u\[\e[0;39m\]@\[\e[1;36m\]jobs:\j \[\e[1;33m\]\w\[\e[0;39m\]\[\e[1;35m\]$(__git_ps1 " (%s)")\[\e[0;39m\]\[\e[1;37m\]]\[\e[0;39m\]\n$ "
+PS1="\n\[\e[1;37m\][\[\e[1;32m\]\u\[\e[0;39m\]@\[\e[1;36m\]jobs:\j \[\e[1;33m\]\w\[\e[0;39m\]\[\e[1;35m\]\$(parse_git_branch)\[\e[0;39m\]\[\e[1;37m\]]\[\e[0;39m\]\n$ "
 # ========================BASHMARKS FOR SHELL==========================
 source ~/.local/bin/bashmarks.sh
 # =========================MC==============================
@@ -190,6 +193,7 @@ alias cept="./vendor/bin/codecept"
 # ===========================GIT==========================
 alias ggll='git log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short'
 alias ggss='git status '
+alias ggbb='git branch '
 # =========================APACHE=========================
 alias astat='sudo /etc/init.d/apache2 status'
 alias arel='sudo /etc/init.d/apache2 reload'
