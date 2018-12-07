@@ -185,6 +185,8 @@ alias linh="less -N ~/Desktop/conf/txt/linuxcom.txt"
 alias untar="tar -xvf"
 alias untargz="tar -xvzf"
 alias untarbz="tar -xvjf"
+# ===========================PHP===========================
+alias phpcv='sudo update-alternatives --config php'
 # ===========================SCREENFETCH==========================
 alias sf="screenfetch"
 # =========================YII2======================
